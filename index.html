@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Apontamento de Produção</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sistema de Apontamento de Produção</h2>
+        <label for="saldo">Saldo a Produzir:</label>
+        <input type="number" id="saldo" value="1000">
+        <label for="producao">Produção:</label>
+        <input type="number" id="producao" disabled>
+        <button id="iniciarTurno">Iniciar Turno</button>
+        <button id="finalizarTurno" disabled>Finalizar Turno</button>
+        <div id="info">
+            <p>Tempo Trabalhado: <span id="tempoTrabalhado">N/A</span></p>
+            <p>Peças Produzidas: <span id="pecasProduzidas">N/A</span></p>
+        </div>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>
